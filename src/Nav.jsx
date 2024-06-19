@@ -4,7 +4,7 @@
 
 const Nav = () => {
     return (
-        <div>
+        <div className=" mt-2 ml-2 mr-2">
 
             <div>
 
@@ -13,7 +13,13 @@ const Nav = () => {
 
             <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+
+    <div className=" flex items-center gap-2">
+    <img className=" h-[50px]" src="https://i.ibb.co/QNdh8nw/newspaper.png" alt="" />
+    <a className=" font-serif  text-4xl">Time Star</a>
+
+    </div>
+    
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">
@@ -22,7 +28,7 @@ const Nav = () => {
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img alt="Tailwind CSS Navbar component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <img alt="Tailwind CSS Navbar component" src="   https://i.ibb.co/DRDVcND/newspaper-2.png  " />
         </div>
       </div>
       <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
